@@ -77,6 +77,10 @@ VALUES
 (3, 'Yoga', 60, '2024-12-02'),
 (4, 'Correr', 55,'2024-12-02')
 
+DELETE FROM actividad_fisica
+WHERE usuario_id = 1;
+
+
 CREATE TABLE alimentacion (--LOURDES
     id INT AUTO_INCREMENT PRIMARY KEY,
     usuario_id INT,
@@ -91,3 +95,7 @@ VALUES
 (2, 'Tostadas con palta','2024-12-02'),
 (3, 'Pastas caseras', '2024-12-02'),
 (4, 'Licuado de frutos rojos', '2024-12-02')
+
+UPDATE alimentacion--actualiza una comida que fue registrada por el usuario
+SET comida="Ensaladacon pollo y arroz"
+WHERE id=1;
