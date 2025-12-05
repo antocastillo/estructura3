@@ -99,3 +99,7 @@ VALUES
 UPDATE alimentacion--actualiza una comida que fue registrada por el usuario
 SET comida="Ensaladacon pollo y arroz"
 WHERE id=1;
+
+UPDATE alimentacion
+SET calorias=450
+WHERE id=2;
