@@ -82,7 +82,7 @@ VALUES
 (2, 'Gimnasio', 45,'2024-12-02'),
 (3, 'Yoga', 60, '2024-12-02'),
 (4, 'Correr', 55,'2024-12-02');
-CREATE TABLE alimentacion (
+'CREATE TABLE alimentacion (
     id INT AUTO_INCREMENT PRIMARY KEY,
     usuario_id INT,
     comida VARCHAR(100),
@@ -95,8 +95,12 @@ VALUES
 (1, 'Ensalada + pollo', '2024-12-02'),
 (2, 'Tostadas con palta','2024-12-02'),
 (3, 'Pastas caseras', '2024-12-02'),
-(4, 'Licuado de frutos rojos', '2024-12-02')
+(4, 'Licuado de frutos rojos', '2024-12-02')'
 
 UPDATE alimentacion--actualiza una comida que fue registrada por el usuario
 SET comida="Ensaladacon pollo y arroz"
 WHERE id=1;
+
+UPDATE alimentacion
+SET calorias=450
+WHERE id=2;
