@@ -42,6 +42,18 @@ VALUES
 (2, 'Bienvenida Anto!', 'Mejorar el sueño'),
 (3, 'Bienvenida a FitLife Zoel!', 'Mejorar alimentación'),
 (4, 'Bienvenida a FitLife Lourdesl!', 'Mejorar actividad física');
+
+SELECT id, nombre_usuario --Verificar si el email existe--
+FROM usuarios
+WHERE email = 'sol@gmail.com';
+
+SELECT id, nombre_usuario --Verificar credenciales (email + password)--
+FROM usuarios
+WHERE email = 'sol@gmail.com'
+  AND password = '1234';
+
+
+
 CREATE TABLE sueño (
     id INT AUTO_INCREMENT PRIMARY KEY,
     usuario_id INT,
