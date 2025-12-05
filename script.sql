@@ -11,7 +11,7 @@ INSERT INTO usuarios (nombre_usuario, email, password)
 VALUES
 ('sol123', 'sol@gmail.com', '1234'),
 ('antoFit', 'anto@hotmail.com', 'fitlife2024'),
-('zooee', 'LopezZ@fitlife.com', 'admin123'),
+('zooee', 'lopezZ@fitlife.com', 'admin123'),
 ('lourdess', 'AcunaLou@gmail.com', 'melania123');
 CREATE TABLE datos_personales (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -83,4 +83,8 @@ VALUES
 (1, 'Ensalada + pollo', '2024-12-02'),
 (2, 'Tostadas con palta','2024-12-02'),
 (3, 'Pastas caseras', '2024-12-02'),
-(4, 'Licuado de frutos rojos', '2024-12-02');
+(4, 'Licuado de frutos rojos', '2024-12-02')
+
+UPDATE alimentacion--actualiza una comida que fue registrada por el usuario
+SET comida="Ensaladacon pollo y arroz"
+WHERE id=1;
