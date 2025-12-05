@@ -13,7 +13,7 @@ VALUES
 ('sol123', 'sol@gmail.com', '1234'),
 ('antoFit', 'anto@hotmail.com', 'fitlife2024'),
 ('zooee', 'LopezZ@fitlife.com', 'admin123'),
-('lourdess', 'AcunaLou@gmail.com', 'melania123');
+('lourdess', 'AcunaLou@gmail.com', 'melania123')
 
 CREATE TABLE datos_personales (--TODAS
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -30,7 +30,7 @@ VALUES
 (1, 'Sol', 'Bracamonte', 16, 1.55, 55),
 (2, 'Anto', 'Castillo', 16, 1.72, 50),
 (3, 'Zoe', 'Lopez', 16, 1.65, 55),
-(4, 'Lourdes', 'Acuña', 16, 1.59, 56);
+(4, 'Lourdes', 'Acuña', 16, 1.59, 56)
 
 CREATE TABLE home (--ANTONELLA
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -44,7 +44,8 @@ VALUES
 (1, 'Bienvenida a FitLife Sol!', 'Mejorar hábitos diarios'),
 (2, 'Bienvenida Anto!', 'Mejorar el sueño'),
 (3, 'Bienvenida a FitLife Zoel!', 'Mejorar alimentación'),
-(4, 'Bienvenida a FitLife Lourdesl!', 'Mejorar actividad física');
+(4, 'Bienvenida a FitLife Lourdesl!', 'Mejorar actividad física')
+
 
 CREATE TABLE sueño (--ZOE
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -59,7 +60,7 @@ VALUES
 (1, 7.5, 'Buena', '2024-12-01'),
 (2, 6.0, 'Regular', '2024-12-01'),
 (3, 8.0, 'Muy buena', '2024-12-01'),
-(4, 6.5, 'Regular', '2024-12-01');
+(4, 6.5, 'Regular', '2024-12-01')
 
 CREATE TABLE actividad_fisica (-- SOL
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -74,7 +75,7 @@ VALUES
 (1, 'Caminata ligera', 30, '2024-12-02'),
 (2, 'Gimnasio', 45,'2024-12-02'),
 (3, 'Yoga', 60, '2024-12-02'),
-(4, 'Correr', 55,'2024-12-02');
+(4, 'Correr', 55,'2024-12-02')
 
 CREATE TABLE alimentacion (--LOURDES
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -89,4 +90,4 @@ VALUES
 (1, 'Ensalada + pollo', '2024-12-02'),
 (2, 'Tostadas con palta','2024-12-02'),
 (3, 'Pastas caseras', '2024-12-02'),
-(4, 'Licuado de frutos rojos', '2024-12-02');
+(4, 'Licuado de frutos rojos', '2024-12-02')
