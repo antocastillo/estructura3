@@ -62,6 +62,9 @@ VALUES
 (3, 8.0, 'Muy buena', '2024-12-01'),
 (4, 6.5, 'Regular', '2024-12-01')
 
+select from sueño;--ver todos los registros de sueño
+select from sueño;
+where usuario_id=1--ver el sueño especifico de un usuario(por ejemplo usuario_id=1)
 CREATE TABLE actividad_fisica (-- SOL
     id INT AUTO_INCREMENT PRIMARY KEY,
     usuario_id INT,
