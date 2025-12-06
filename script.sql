@@ -87,6 +87,8 @@ VALUES
 DELETE FROM actividad_fisica
 WHERE usuario_id = 1;
 
+DELETE FROM usuarios
+WHERE id=1;
 
 CREATE TABLE alimentacion (--LOURDES
     id INT AUTO_INCREMENT PRIMARY KEY,
