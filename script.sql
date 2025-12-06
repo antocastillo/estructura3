@@ -46,6 +46,10 @@ VALUES
 (3, 'Bienvenida a FitLife Zoel!', 'Mejorar alimentación'),
 (4, 'Bienvenida a FitLife Lourdesl!', 'Mejorar actividad física')
 
+SELECT id, nombre_usuario --Verificar si el email existe(ANTO)
+FROM usuarios
+WHERE email = 'sol@gmail.com';
+
 
 CREATE TABLE sueño (--ZOE
     id INT AUTO_INCREMENT PRIMARY KEY,
