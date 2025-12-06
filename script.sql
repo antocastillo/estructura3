@@ -50,6 +50,11 @@ SELECT id, nombre_usuario --Verificar si el email existe(ANTO)
 FROM usuarios
 WHERE email = 'sol@gmail.com';
 
+SELECT id, nombre_usuario --Verificar credenciales (correcto ANTO)--
+FROM usuarios
+WHERE email = 'sol@gmail.com'
+  AND password = '1234';
+|
 
 CREATE TABLE sueño (--ZOE
     id INT AUTO_INCREMENT PRIMARY KEY,
